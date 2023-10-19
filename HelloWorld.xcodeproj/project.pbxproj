@@ -11,6 +11,8 @@
 		FDB33E662AE1A93600DDB6E9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB33E652AE1A93600DDB6E9 /* ContentView.swift */; };
 		FDB33E682AE1A93700DDB6E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDB33E672AE1A93700DDB6E9 /* Assets.xcassets */; };
 		FDB33E6B2AE1A93700DDB6E9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDB33E6A2AE1A93700DDB6E9 /* Preview Assets.xcassets */; };
+		FDB33E722AE1AF2A00DDB6E9 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB33E712AE1AF2A00DDB6E9 /* CircleImage.swift */; };
+		FDB33E742AE1B01A00DDB6E9 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB33E732AE1B01A00DDB6E9 /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		FDB33E652AE1A93600DDB6E9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FDB33E672AE1A93700DDB6E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FDB33E6A2AE1A93700DDB6E9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FDB33E712AE1AF2A00DDB6E9 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		FDB33E732AE1B01A00DDB6E9 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 				FDB33E632AE1A93600DDB6E9 /* HelloWorldApp.swift */,
 				FDB33E652AE1A93600DDB6E9 /* ContentView.swift */,
 				FDB33E672AE1A93700DDB6E9 /* Assets.xcassets */,
+				FDB33E712AE1AF2A00DDB6E9 /* CircleImage.swift */,
+				FDB33E732AE1B01A00DDB6E9 /* MapView.swift */,
 				FDB33E692AE1A93700DDB6E9 /* Preview Content */,
 			);
 			path = HelloWorld;
@@ -138,7 +144,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				FDB33E662AE1A93600DDB6E9 /* ContentView.swift in Sources */,
+				FDB33E742AE1B01A00DDB6E9 /* MapView.swift in Sources */,
 				FDB33E642AE1A93600DDB6E9 /* HelloWorldApp.swift in Sources */,
+				FDB33E722AE1AF2A00DDB6E9 /* CircleImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
