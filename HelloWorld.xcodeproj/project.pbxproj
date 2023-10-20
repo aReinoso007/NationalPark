@@ -11,6 +11,7 @@
 		FD9AF1FE2AE20874008AE3F7 /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD9AF1FD2AE20874008AE3F7 /* Landmark.swift */; };
 		FD9AF2002AE20A9F008AE3F7 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD9AF1FF2AE20A9F008AE3F7 /* ModelData.swift */; };
 		FD9AF2052AE21125008AE3F7 /* LandmarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD9AF2042AE21125008AE3F7 /* LandmarkRow.swift */; };
+		FD9AF2072AE214C2008AE3F7 /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD9AF2062AE214C2008AE3F7 /* LandmarkList.swift */; };
 		FDB33E642AE1A93600DDB6E9 /* HelloWorldApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB33E632AE1A93600DDB6E9 /* HelloWorldApp.swift */; };
 		FDB33E662AE1A93600DDB6E9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB33E652AE1A93600DDB6E9 /* ContentView.swift */; };
 		FDB33E682AE1A93700DDB6E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDB33E672AE1A93700DDB6E9 /* Assets.xcassets */; };
@@ -24,6 +25,7 @@
 		FD9AF1FD2AE20874008AE3F7 /* Landmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
 		FD9AF1FF2AE20A9F008AE3F7 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
 		FD9AF2042AE21125008AE3F7 /* LandmarkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LandmarkRow.swift; path = HelloWorld/Resources/LandmarkRow.swift; sourceTree = SOURCE_ROOT; };
+		FD9AF2062AE214C2008AE3F7 /* LandmarkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkList.swift; sourceTree = "<group>"; };
 		FDB33E602AE1A93600DDB6E9 /* HelloWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDB33E632AE1A93600DDB6E9 /* HelloWorldApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloWorldApp.swift; sourceTree = "<group>"; };
 		FDB33E652AE1A93600DDB6E9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -51,6 +53,7 @@
 				FDB33E712AE1AF2A00DDB6E9 /* CircleImage.swift */,
 				FDB33E732AE1B01A00DDB6E9 /* MapView.swift */,
 				FDB33E652AE1A93600DDB6E9 /* ContentView.swift */,
+				FD9AF2062AE214C2008AE3F7 /* LandmarkList.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -183,6 +186,7 @@
 				FDB33E662AE1A93600DDB6E9 /* ContentView.swift in Sources */,
 				FDB33E742AE1B01A00DDB6E9 /* MapView.swift in Sources */,
 				FDB33E642AE1A93600DDB6E9 /* HelloWorldApp.swift in Sources */,
+				FD9AF2072AE214C2008AE3F7 /* LandmarkList.swift in Sources */,
 				FDB33E722AE1AF2A00DDB6E9 /* CircleImage.swift in Sources */,
 				FD9AF1FE2AE20874008AE3F7 /* Landmark.swift in Sources */,
 				FD9AF2052AE21125008AE3F7 /* LandmarkRow.swift in Sources */,
