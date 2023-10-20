@@ -17,8 +17,9 @@ struct LandmarkList: View {
          2. making the data type conform to the Identifiable
          protocol
          */
-        List(landmarks, id: \.id){
+        List(landmarks){
             landmark in
+            LandmarkRow(landmark: landmark)
         }
     }
 }
